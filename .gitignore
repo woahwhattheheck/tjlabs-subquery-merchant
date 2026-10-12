@@ -1,0 +1,12 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+# Private merchant state, releases, deployment bundles and OAuth stores
+# are operator data and must never enter the source tree.
+state/
+releases/
+deployments/
+oauth-stores/
+.env
+*.env

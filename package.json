@@ -1,0 +1,14 @@
+{
+  "name": "@tokenjunkielabs/starforge-subquery-merchant",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "dependencies": { "graphql": "16.14.2" },
+  "scripts": {
+    "merchant": "node stellar/scf-starforge-20261009/sf105-subquery-graphql-merchant/launch.mjs",
+    "release": "node stellar/scf-starforge-20261009/sf82-seller-pilot/release-cli.mjs",
+    "deploy": "node stellar/scf-starforge-20261009/sf99-merchant-deploy/cli.mjs"
+  }
+}

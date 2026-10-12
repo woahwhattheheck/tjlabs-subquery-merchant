@@ -1,0 +1,14 @@
+Stellar Forge — SubQuery GraphQL Merchant
+Copyright (c) TokenJunkieLabs
+
+This product includes or requires third-party software:
+
+graphql-js (graphql@16.14.2)
+  MIT License
+  Copyright (c) GraphQL Contributors
+  https://github.com/graphql/graphql-js
+
+x402 SDK (@x402/core, @x402/stellar, @x402/extensions) — optional,
+operator-installed for native payment mode only
+  Apache License 2.0
+  Coinbase Developer Platform / x402 foundation
